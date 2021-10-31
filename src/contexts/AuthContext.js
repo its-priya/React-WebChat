@@ -1,6 +1,10 @@
 import React, {useContext, useState, useEffect} from 'react';
 import { useHistory } from 'react-router-dom';
+<<<<<<< HEAD
 import { auth } from '../components/firebase';
+=======
+import { auth } from '../firebase';
+>>>>>>> 419ab66dc654a9a53ae8deab81bf2ab4e4957e65
 
 const AuthContext= React.createContext();
 
